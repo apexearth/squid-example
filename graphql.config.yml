@@ -1,0 +1,5 @@
+projects:
+  squid:
+    schema: schema.graphql
+include:
+  - types.graphql

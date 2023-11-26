@@ -1,0 +1,9 @@
+type BalanceIncrease @entity {
+  id: ID!
+  blockNumber: Int @index
+  blockTimestamp: DateTime! @index
+  address: String! @index
+  account: String! @index
+  amount: BigInt!
+  amountUsd: BigInt!
+}
